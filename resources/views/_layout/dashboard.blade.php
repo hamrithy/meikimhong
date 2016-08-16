@@ -202,119 +202,151 @@
                 </div>
             </div>
             <!-- search form -->
-            <form action="#" method="get" class="sidebar-form">
-                <div class="input-group">
-                    <input type="text" name="q" class="form-control" placeholder="Search...">
-              <span class="input-group-btn">
-                <button type="submit" name="search" id="search-btn" class="btn btn-flat"><i class="fa fa-search"></i>
-                </button>
-              </span>
-                </div>
-            </form>
             <!-- /.search form -->
             <!-- sidebar menu: : style can be found in sidebar.less -->
             <ul class="sidebar-menu">
-                <li class="header">MAIN NAVIGATION</li>
                 <li class="treeview">
                     <a href="#">
-                        <i class="fa fa-dashboard"></i> <span>Dashboard</span>
-            <span class="pull-right-container">
-              <i class="fa fa-angle-left pull-right"></i>
-            </span>
+                        <i class="fa fa-dashboard"></i>
+                            <span>ផ្ទាំងគ្រប់គ្រង</span>
                     </a>
-                    <ul class="treeview-menu">
-                        <li><a href="../../index.html"><i class="fa fa-circle-o"></i> Dashboard v1</a></li>
-                        <li><a href="../../index2.html"><i class="fa fa-circle-o"></i> Dashboard v2</a></li>
-                    </ul>
                 </li>
                 <li class="treeview">
                     <a href="#">
                         <i class="fa fa-files-o"></i>
-                        <span>Layout Options</span>
-            <span class="pull-right-container">
-              <span class="label label-primary pull-right">4</span>
-            </span>
+                        <span>រៀបចំ ទិន្ន័យ</span>
                     </a>
                     <ul class="treeview-menu">
-                        <li><a href="../layout/top-nav.html"><i class="fa fa-circle-o"></i> Top Navigation</a></li>
-                        <li><a href="../layout/boxed.html"><i class="fa fa-circle-o"></i> Boxed</a></li>
-                        <li><a href="../layout/fixed.html"><i class="fa fa-circle-o"></i> Fixed</a></li>
-                        <li><a href="../layout/collapsed-sidebar.html"><i class="fa fa-circle-o"></i> Collapsed Sidebar</a></li>
+                        <li><a href="../layout/top-nav.html"><i class="fa fa-circle-o"></i>រៀបចំ អត្រាប្តូរប្រាក់ </a></li>
                     </ul>
                 </li>
                 <li>
                     <a href="../widgets.html">
-                        <i class="fa fa-th"></i> <span>Widgets</span>
-            <span class="pull-right-container">
-              <small class="label pull-right bg-green">Hot</small>
-            </span>
-                    </a>
-                </li>
-                <li class="treeview">
-                    <a href="#">
-                        <i class="fa fa-pie-chart"></i>
-                        <span>Charts</span>
-            <span class="pull-right-container">
-              <i class="fa fa-angle-left pull-right"></i>
-            </span>
+                        <i class="fa fa-th"></i> <span>ទំនិញ</span>
                     </a>
                     <ul class="treeview-menu">
-                        <li><a href="../charts/chartjs.html"><i class="fa fa-circle-o"></i> ChartJS</a></li>
-                        <li><a href="../charts/morris.html"><i class="fa fa-circle-o"></i> Morris</a></li>
-                        <li><a href="../charts/flot.html"><i class="fa fa-circle-o"></i> Flot</a></li>
-                        <li><a href="../charts/inline.html"><i class="fa fa-circle-o"></i> Inline charts</a></li>
+                        <li><a href="../layout/top-nav.html"><i class="fa fa-circle-o"></i>រៀបចំប្រភេទ ទំនិញ</a></li>
+                        <li><a href="../layout/top-nav.html"><i class="fa fa-circle-o"></i>រៀបចំកំ រិតតំលៃ  ទំនិញ</a></li>
+                        <li><a href="../layout/top-nav.html"><i class="fa fa-circle-o"></i>ររៀបចំកំ រិតមុខៃ  ទំនិញ</a></li>
+                        <li><a href="../layout/top-nav.html"><i class="fa fa-circle-o"></i>ផ្ទេរ  ទំនិញ</a></li>
                     </ul>
                 </li>
                 <li class="treeview">
                     <a href="#">
-                        <i class="fa fa-laptop"></i>
-                        <span>UI Elements</span>
-            <span class="pull-right-container">
-              <i class="fa fa-angle-left pull-right"></i>
-            </span>
+                        <i class="fa fa-diamond"></i>
+                        <span>អតិថិជន</span>
                     </a>
                     <ul class="treeview-menu">
-                        <li><a href="../UI/general.html"><i class="fa fa-circle-o"></i> General</a></li>
-                        <li><a href="../UI/icons.html"><i class="fa fa-circle-o"></i> Icons</a></li>
-                        <li><a href="../UI/buttons.html"><i class="fa fa-circle-o"></i> Buttons</a></li>
-                        <li><a href="../UI/sliders.html"><i class="fa fa-circle-o"></i> Sliders</a></li>
-                        <li><a href="../UI/timeline.html"><i class="fa fa-circle-o"></i> Timeline</a></li>
-                        <li><a href="../UI/modals.html"><i class="fa fa-circle-o"></i> Modals</a></li>
+                        <li><a href="#"><i class="fa fa-circle-o"></i> រៀបចំ ប្រភេទអតិថិជន</a></li>
+                        <li><a href="#"><i class="fa fa-circle-o"></i> រៀបចំ អតិថិជន</a></li>
+                        <li><a href="#"><i class="fa fa-circle-o"></i> រៀបចំ សេវាកម្ម</a></li>
+                        <li><a href="#"><i class="fa fa-circle-o"></i> បញ្ជាលក់ជាសេវាកម្ម</a></li>
+                        <li><a href="#"><i class="fa fa-circle-o"></i> បញ្ជាលក់ទំនិញ</a></li>
+                        <li><a href="#"><i class="fa fa-circle-o"></i> បង្វិលទំនិញចូលពីអតិថិជន់</a></li>
+                        <li><a href="#"><i class="fa fa-circle-o"></i>ទទូលប្រាក់សងពីអតិថិជន់</a></li>
                     </ul>
                 </li>
                 <li class="treeview">
                     <a href="#">
-                        <i class="fa fa-edit"></i> <span>Forms</span>
-            <span class="pull-right-container">
-              <i class="fa fa-angle-left pull-right"></i>
-            </span>
+                        <i class="fa  fa-taxi"></i>
+                        <span>អ្នកផ្គត់ផ្គត់</span>
                     </a>
                     <ul class="treeview-menu">
-                        <li><a href="../forms/general.html"><i class="fa fa-circle-o"></i> General Elements</a></li>
-                        <li><a href="../forms/advanced.html"><i class="fa fa-circle-o"></i> Advanced Elements</a></li>
-                        <li><a href="../forms/editors.html"><i class="fa fa-circle-o"></i> Editors</a></li>
+                        <li><a href="#"><i class="fa fa-circle-o"></i>ររៀបចំ ប្រភេទអ្នកផ្គត់ផ្គង់</a></li>
+                        <li><a href="#"><i class="fa fa-circle-o"></i>រផបចំ អ្នកផ្គត់ផ្គង់</a></li>
+                        <li><a href="#"><i class="fa fa-circle-o"></i> បញ្ជាទិញទំនិញ</a></li>
+                        <li><a href="#"><i class="fa fa-circle-o"></i> បង្វិលទំនិញចេញ</a></li>
+                        <li><a href="#"><i class="fa fa-circle-o"></i> សងប្រាក់ទៅអ្នកផ្គត់ផ្គង់់</a></li>
                     </ul>
                 </li>
                 <li class="treeview">
                     <a href="#">
-                        <i class="fa fa-table"></i> <span>Tables</span>
-            <span class="pull-right-container">
-              <i class="fa fa-angle-left pull-right"></i>
-            </span>
+                        <i class="fa  fa-user-plus"></i> <span>បុក្គលិក</span>
                     </a>
                     <ul class="treeview-menu">
-                        <li><a href="../tables/simple.html"><i class="fa fa-circle-o"></i> Simple tables</a></li>
-                        <li><a href="../tables/data.html"><i class="fa fa-circle-o"></i> Data tables</a></li>
+                        <li><a href=""><i class="fa fa-circle-o"></i>បញ្ជីបុក្គលិក</a></li>
+                    </ul>
+                </li>
+                <li class="treeview">
+                    <a href="#">
+                        <i class="fa fa-calculator"></i> <span>គណនេយ្យ</span>
+                    </a>
+                    <ul class="treeview-menu">
+                        <li><a href=""><i class="fa fa-circle-o"></i> រៀបចំ ប្រភេទចំនាយ</a></li>
+                        <li><a href=""><i class="fa fa-circle-o"></i> រៀបចំ ប្រភេទចំណូល</a></li>
+                        <li><a href=""><i class="fa fa-circle-o"></i> តត់ត្រាចំណាយ</a></li>
+                        <li><a href=""><i class="fa fa-circle-o"></i> តត់ត្រាចំណូល</a></li>
                     </ul>
                 </li>
                 <li>
-                    <a href="../calendar.html">
-                        <i class="fa fa-calendar"></i> <span>Calendar</span>
-            <span class="pull-right-container">
-              <small class="label pull-right bg-red">3</small>
-              <small class="label pull-right bg-blue">17</small>
-            </span>
+                    <a href="#">
+                        <i class="fa fa-file-text"></i> <span>របាយការណ៍</span>
                     </a>
+                    <ul class="treeview-menu">
+                        <li>
+                            <a href=""><i class="fa fa-circle-o"></i>ទំនិញ</a>
+                            <ul class="treeview-menu">
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-circle-o"></i>បញ្ជីឈ្មោះទំនិញ
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-circle-o"></i>ចំនូនទំនិញក្នុងស្តុក
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-circle-o"></i>តាមដានដ្លែដើមទំនិញ
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-circle-o"></i>កែតម្រូវតាមស្តុកជាក់ស្ងែង
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-circle-o"></i>ផ្ទេរទំនិញចេញ
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-circle-o"></i>បញ្ជាទិញទំនិញ
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="#"><i class="fa fa-circle-o"></i> អតិថិជាន់,លក់,ប្រាក់ជំពាក់</a>
+                            <ul>
+                                <li class="treeview-menu">
+                                    <a href="#">
+                                        <i class="fa fa-circle-o"></i>បញ្ជីឈ្មោះអតិថិជន់
+                                    </a>
+                                </li>
+                                <li class="treeview-menu">
+                                    <a href="#">
+                                        <i class="fa fa-circle-o"></i>របាយការណ៏លក់ទំនិញ
+                                    </a>
+                                </li>
+                                <li class="treeview-menu">
+                                    <a href="#">
+                                        <i class="fa fa-circle-o"></i>សមតុល្យអតិថិជន់
+                                    </a>
+                                </li>
+                                <li class="treeview-menu">
+                                    <a href="#">
+                                        <i class="fa fa-circle-o"></i>អតិថិជន់បងប្រាក់
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </li>
+                        <li><a href=""><i class="fa fa-circle-o"></i> តត់ត្រាចំណាយ</a></li>
+                        <li><a href=""><i class="fa fa-circle-o"></i> តត់ត្រាចំណូល</a></li>
+                    </ul>
+
                 </li>
                 <li>
                     <a href="../mailbox/mailbox.html">
