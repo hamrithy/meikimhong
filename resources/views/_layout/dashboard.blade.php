@@ -304,7 +304,7 @@
         <div class="pull-right hidden-xs">
             <b>Version</b> 1
         </div>
-        <strong>Copyright &copy;2016 <a href="http://cstcambodia.com">CST CST Cambodia Technology</a>.</strong> All rights
+        <strong>Copyright &copy;2016 <a href="http://cstcambodia.com">CST Cambodia Technology</a>.</strong> All rights
         reserved.
     </footer>
 
@@ -319,6 +319,7 @@
 
 <!-- jQuery 2.2.3 -->
 <script src="{{'../../assets/plugins/jQuery/jquery-2.2.3.min.js'}}"></script>
+<script src="{{'../../assets/dist/js/veu.min.js'}}"></script>
 <!-- Bootstrap 3.3.6 -->
 <script src="{{'../../assets/bootstrap/js/bootstrap.min.js'}}"></script>
 <!-- SlimScroll -->
